@@ -11,6 +11,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.visualprogramming.sesi_3.Tugas1ContactPreviewScreen
+import com.example.visualprogramming.sesi_3.Tugas2CheckoutScreen
 import com.example.visualprogramming.ui.theme.VisualProgrammingTheme
 
 class MainActivity : ComponentActivity() {
@@ -19,12 +21,14 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             VisualProgrammingTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
+//                Tugas1ContactPreviewScreenreen()
+                Tugas2CheckoutScreen()
+//                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+//                    Greeting(
+//                        name = "Android",
+//                        modifier = Modifier.padding(innerPadding)
+//                    )
+//                }
             }
         }
     }
