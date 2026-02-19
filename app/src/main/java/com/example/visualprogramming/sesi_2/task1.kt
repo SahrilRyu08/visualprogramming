@@ -1,4 +1,4 @@
-package com.example.visualprogramming.sesi_3
+package com.example.visualprogramming.sesi_2
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
