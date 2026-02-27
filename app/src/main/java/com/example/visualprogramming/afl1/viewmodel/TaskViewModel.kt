@@ -14,10 +14,6 @@ class TaskViewModel(private val repository: TaskRepository = TaskRepository()) :
         repository.deleteTask(task)
     }
 
-    fun restroreDefault() {
-        repository.restoreDefault()
-    }
-
     fun onTaskCheckedChange(task: Task, isCompleted: Boolean) {
         repository.toggleTaskCompletion(task, isCompleted)
     }
